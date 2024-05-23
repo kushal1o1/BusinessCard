@@ -1,0 +1,147 @@
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:1%;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.Container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(252, 252, 252);
+  width:60vh;
+  box-shadow: 3px  8px 16px rgba(0, 0, 0, 0.4);
+
+}
+
+.profile{
+  border-radius:50%;
+  box-shadow: 3px  8px 16px rgba(6, 6, 6, 0.4);
+  
+  height:45vh;
+
+
+}
+*{
+  padding: 0;
+  margin:0;
+}
+.info{
+  text-align:  center;
+ 
+
+}
+.about{
+  text-align: center;
+}
+.Name{
+  font-weight:900;
+  font-size:5vh;
+  color:rgb(0, 0, 0);
+
+}
+.Title{
+  text-align: center;
+  color:rgb(1, 60, 255);
+  opacity: 0.5;
+}
+.Nick{
+  text-align: center;
+  opacity:0.4;
+  color:rgb(2, 78, 210);
+}
+.Buttons{
+display:flex;
+align-items: center;
+justify-content:space-between;
+width:30%;
+
+
+}
+
+.Email,.linkin{
+
+  /* width:20vw;
+  height:30px; */
+  width:5vw;
+  height:2vw;
+  border-radius: 12px;
+  align-items: center;
+  margin:1%;
+
+  font-size:1vw ;
+  font-style: italic;
+  transition-property:all;
+  transition-duration: 0.4s ease-in-out 2s;
+  
+}
+.Email:hover,.linkin:hover{
+  border-radius: 15px;
+ 
+}
+.About{
+ opacity:0.5;
+ text-align:left;
+ padding:2vh;
+ display:flex;
+ flex-direction: column;
+ align-items:center;
+ justify-content: space-around;
+ width:70%;
+ font-weight: bold;
+ color:rgb(0, 0, 0);
+
+}
+.Topic{
+  font-weight:900;
+  color:rgb(44, 41, 94);
+}
+
+ul.social {
+  cursor: default;
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+  ul.social li {
+      position: relative;
+      display: inline-block;
+
+      top: 0;
+      padding-left: 0;
+  }
+
+      ul.social li a {
+          -moz-transition: top .2s ease-in-out;
+          -webkit-transition: top .2s ease-in-out;
+          -ms-transition: top .2s ease-in-out;
+          transition: top .2s ease-in-out;
+          display: block;
+          width: 30px;
+          height: 5px;
+        
+          border-radius: 6px;
+          top: 0;
+          position: relative;
+      }
+
+        
+          ul.social li a:hover {
+              top: -5px;
+          }
+
+          
+
+          ul.social li {
+              margin: 0.5em 0.5em 0.5em 0.5em;
+          }
+.footer{
+  text-align: end;
+  margin-right:2%;
+}
